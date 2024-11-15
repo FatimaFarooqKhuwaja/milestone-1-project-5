@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <form id="form">
+        <h1>Dynamic Resume Builder </h1>
+      
+<!-- name and image section -->
+            <fieldset>
+                <legend >Personal Details</legend>
+                
+                <label for="name">Name: </label>
+                <input id="name" type="text" required>
+           
+                <br>
+                <br>
+                <label for="designation">Designation:</label>
+                <input id="designation" type="text" required>
+                 <br>
+<br>
+
+                <label for="name">Profile Pic:</label>
+                <input id="pic" type="file" required>
+            </fieldset>
+
+<!-- eends -->
+
+<!-- contact section starts -->
+
+
+            <fieldset>
+                <legend>Contact</legend>
+                <label for="phone">Phone:</label>
+                <input id="phone" type="number" required>
+
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" required>
+<br>
+<br>
+                <label for="text">Address:</label>
+                <input id="address" type="text" name="address" required>
+
+            </fieldset>
+
+            <!-- eends -->
+
+
+            <!-- skills section starts -->
+
+            <fieldset>
+                <legend>Skills</legend>
+    
+                <input type="text" id="skills" required>
+                <br>
+                <br>
+                <input type="text" id="skills2" required>
+                <br>
+                <br>
+                <input type="text" id="skills3" >
+            </fieldset>
+           
+      <!-- eends -->
+
+
+    
+        <!-- Education section starts -->
+
+
+        <fieldset>
+            <legend>Education</legend>
+
+            <input type="text" id="education" required>
+        </fieldset> 
+
+<!-- eends -->
+
+      
+ <!-- Experience section starts -->
+
+        <fieldset>
+            <legend>Experience</legend>
+            <textarea id="experience" name="text" required ></textarea>
+        </fieldset>
+
+<!-- eends -->
+
+
+<!-- languages section starts -->
+
+        <fieldset>
+            <legend>Languages</legend>
+            <input type="text" id="language1" required>
+            <br>
+            <br>
+            <input type="text" id="language2" required>
+            <br>
+            <br>
+            <input type="text" id="language3">
+        </fieldset>
+
+        <fieldset>
+            <legend>About Your Self</legend>
+            <textarea id="about" name="text" required ></textarea>
+        </fieldset>
+
+
+        <!-- ennds -->
+
+        <div class="btnn" ><input id="submitBtn" type="submit"></div>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,115 @@
+body{
+    justify-items: center;
+}
+ 
+  
+ h1{
+    
+    font-size: 30px;
+    color: rgb(69, 146, 177);
+}
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    border: 3px solid black;
+    background-color: rgb(249, 252, 255);
+}
+label{
+    font-weight: bolder;
+    display: block;
+}
+
+fieldset{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+legend{
+    color: rgb(69, 146, 177);
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+input{
+    width: 300px;
+    border-radius: 2px;
+    height: 25px;
+}
+
+textarea{
+    width: 300px;
+    border-radius: 10px;
+}
+.btnn input{
+    margin-top: 15px;
+    border-radius: 30px;
+    border:3px solid rgb(69, 146, 177);
+    width:360px;
+    height:50px;
+    font-size: 25px;
+}
+.btnn input:hover{
+    background-color: rgb(69, 146, 177);
+    color: white;
+    border:5px solid white;
+}
+
+
+@media (max-width:500px){
+    
+
+    h1{
+    
+        font-size: 18px;
+        color:rgb(69, 146, 177);
+    }
+    form{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 20px;
+        border-radius: 15px;
+        width: 230px;
+        border: 3px solid black;
+        background-color: rgb(243, 246, 248);
+    }
+    label{
+        font-weight: bolder;
+       
+        display: block;
+    }
+    fieldset{
+    
+        font-size: 14px;
+        border: 1px solid black;
+        padding: 20px;
+        }
+    
+    legend{
+        color: rgb(69, 146, 177);
+        font-size: 15px;
+        font-weight: bolder;
+    
+    }
+    
+    input{
+        width: 200px;
+        border-radius: 2px;
+        height: 25px;
+    }
+    
+    textarea{
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+    .btnn input{
+        margin-top: 15px;
+        border-radius: 30px;
+        border:3px solid rgb(69, 146, 177);
+        width:170px;
+        height:40px;
+        font-size: 20px;
+    }
+    }
